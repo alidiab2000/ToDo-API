@@ -4,7 +4,6 @@ from typing import Annotated
 from sqlalchemy.orm import Session 
 from models import ToDos
 from database import  SessionLocal
-from pydantic import BaseModel ,Field
 from .auth import get_current_user
 from .todos import find_task_by_id
 # Create a APIRouter instance
